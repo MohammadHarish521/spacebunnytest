@@ -219,9 +219,12 @@ export default function Home() {
                 style={{ backgroundImage: `url("${portraitOne}")` }}
               />
               <h1>
-                I design software that <span className="green-dot">●</span>
-                <br />
-                gets out of your way. <span className="flower">✿</span>
+                <span className="hero-line">
+                  I design software that <span className="green-dot">●</span>
+                </span>
+                <span className="hero-line">
+                  gets out of your way. <span className="flower">✿</span>
+                </span>
               </h1>
               <div
                 aria-label="Workspace portrait"
